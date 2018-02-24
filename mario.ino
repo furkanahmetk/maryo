@@ -243,7 +243,7 @@ void sleep(unsigned long n)
     int c = 0;
     
     while( millis()<finishTime )
-    //for(c=0; c<n; c++)
+    // for(c=0; c<n; c++)
     {
         if(btn_down_left==false && !BTN_READ_RIGHT && BTN_READ_LEFT)
             btn_down_left = true;
